@@ -1,0 +1,9 @@
+.boxes{
+    display: flex;
+    gap: 30px;
+
+}
+
+.box{
+    text-align: center;
+}
