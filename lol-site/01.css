@@ -2,3 +2,11 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+.plus{
+    padding: 10px;
+}
+
+.minus{
+    padding: 10px;
+}

@@ -1,9 +1,9 @@
 export const champions = [
     {
-      "id": "aatrox",
-      "key": "266",
-      "name": "Aatrox",
-      "title": "the Darkin Blade",
+      id: "aatrox",
+      key: "266",
+      name: "Aatrox",
+      title: "the Darkin Blade",
       "tags": [
         "Fighter",
         "Tank"
@@ -30,7 +30,7 @@ export const champions = [
         "attackspeedperlevel": 2.5,
         "attackspeed": 0.651
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Aatrox.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Aatrox.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 0,
@@ -41,8 +41,8 @@ export const champions = [
     {
       "id": "ahri",
       "key": "103",
-      "name": "Ahri",
-      "title": "the Nine-Tailed Fox",
+      name: "Ahri",
+      title: "the Nine-Tailed Fox",
       "tags": [
         "Mage",
         "Assassin"
@@ -69,7 +69,7 @@ export const champions = [
         "attackspeedperlevel": 2,
         "attackspeed": 0.668
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Ahri.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Ahri.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 48,
@@ -80,8 +80,8 @@ export const champions = [
     {
       "id": "akali",
       "key": "84",
-      "name": "Akali",
-      "title": "the Rogue Assassin",
+      name: "Akali",
+      title: "the Rogue Assassin",
       "tags": [
         "Assassin"
       ],
@@ -107,7 +107,7 @@ export const champions = [
         "attackspeedperlevel": 3.2,
         "attackspeed": 0.625
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Akali.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Akali.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 96,
@@ -118,8 +118,8 @@ export const champions = [
     {
       "id": "alistar",
       "key": "12",
-      "name": "Alistar",
-      "title": "the Minotaur",
+      name: "Alistar",
+      title: "the Minotaur",
       "tags": [
         "Tank",
         "Support"
@@ -146,7 +146,7 @@ export const champions = [
         "attackspeedperlevel": 2.125,
         "attackspeed": 0.625
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Alistar.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Alistar.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 144,
@@ -157,8 +157,8 @@ export const champions = [
     {
       "id": "amumu",
       "key": "32",
-      "name": "Amumu",
-      "title": "the Sad Mummy",
+      name: "Amumu",
+      title: "the Sad Mummy",
       "tags": [
         "Tank",
         "Mage"
@@ -185,7 +185,7 @@ export const champions = [
         "attackspeedperlevel": 2.18,
         "attackspeed": 0.736
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Amumu.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Amumu.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 192,
@@ -196,8 +196,8 @@ export const champions = [
     {
       "id": "anivia",
       "key": "34",
-      "name": "Anivia",
-      "title": "the Cryophoenix",
+      name: "Anivia",
+      title: "the Cryophoenix",
       "tags": [
         "Mage",
         "Support"
@@ -224,7 +224,7 @@ export const champions = [
         "attackspeedperlevel": 1.68,
         "attackspeed": 0.625
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Anivia.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Anivia.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 240,
@@ -235,8 +235,8 @@ export const champions = [
     {
       "id": "annie",
       "key": "1",
-      "name": "Annie",
-      "title": "the Dark Child",
+      name: "Annie",
+      title: "the Dark Child",
       "tags": [
         "Mage"
       ],
@@ -262,7 +262,7 @@ export const champions = [
         "attackspeedperlevel": 1.36,
         "attackspeed": 0.579
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Annie.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Annie.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 288,
@@ -273,8 +273,8 @@ export const champions = [
     {
       "id": "aphelios",
       "key": "523",
-      "name": "Aphelios",
-      "title": "the Weapon of the Faithful",
+      name: "Aphelios",
+      title: "the Weapon of the Faithful",
       "tags": [
         "Marksman"
       ],
@@ -300,7 +300,7 @@ export const champions = [
         "attackspeedperlevel": 2.1,
         "attackspeed": 0.64
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Aphelios.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Aphelios.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 336,
@@ -311,8 +311,8 @@ export const champions = [
     {
       "id": "ashe",
       "key": "22",
-      "name": "Ashe",
-      "title": "the Frost Archer",
+      name: "Ashe",
+      title: "the Frost Archer",
       "tags": [
         "Marksman",
         "Support"
@@ -339,7 +339,7 @@ export const champions = [
         "attackspeedperlevel": 3.33,
         "attackspeed": 0.658
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Ashe.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Ashe.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 384,
@@ -350,8 +350,8 @@ export const champions = [
     {
       "id": "aurelionsol",
       "key": "136",
-      "name": "Aurelion Sol",
-      "title": "The Star Forger",
+      name: "Aurelion Sol",
+      title: "The Star Forger",
       "tags": [
         "Mage"
       ],
@@ -377,7 +377,7 @@ export const champions = [
         "attackspeedperlevel": 1.36,
         "attackspeed": 0.625
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/AurelionSol.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/AurelionSol.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 432,
@@ -388,8 +388,8 @@ export const champions = [
     {
       "id": "azir",
       "key": "268",
-      "name": "Azir",
-      "title": "the Emperor of the Sands",
+      name: "Azir",
+      title: "the Emperor of the Sands",
       "tags": [
         "Mage",
         "Marksman"
@@ -416,7 +416,7 @@ export const champions = [
         "attackspeedperlevel": 3,
         "attackspeed": 0.625
       },
-      "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Azir.png",
+      icon: "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Azir.png",
       "sprite": {
         "url": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/sprite/champion0.png",
         "x": 0,
