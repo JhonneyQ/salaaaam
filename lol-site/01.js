@@ -1,6 +1,9 @@
 import { champions } from "./arr.js";
+import { setDataToLocalStorage , getDataFromLocalStorage, calcBasketCount} from "./helper.js";
 
 const championss = document.querySelector(".champions")
+const users = getDataFromLocalStorage("user") || [];
+const user = users.find((u) => u.isLogged);
 window.addEventListener("DOMContentLoaded", function () {
     const sub = document.querySelector(".sub")
     sub.textContent = count;
@@ -10,7 +13,6 @@ function drawcards(champion){
     championss.innerHTML = ""
     champion.forEach(element => {
         const championsDiv = document.createElement("div")
-        const cardsDiv = document.createElement("div")
         const cardDiv = document.createElement("div")
         const img = document.createElement("img")
         const par = document.createElement("div")
@@ -23,7 +25,6 @@ function drawcards(champion){
 
 
         championsDiv.className="champions"
-        cardsDiv.className="cards"
         cardDiv.className="card"
         par.className="par"
         pname.className="name"
@@ -39,13 +40,14 @@ function drawcards(champion){
 
         par.append(pname, ptitle,minus,plus)
         cardDiv.append(img,par)
-        cardsDiv.append(cardDiv)
-        championss.append(cardsDiv)
+        championss.append(cardDiv)
 
         
         plus.addEventListener("click", () => {
+            console.log(user)
             count++;
             sub.textContent = count;
+            calcBasketCount(user)
         });
 
         minus.addEventListener("click", () => {
@@ -53,6 +55,7 @@ function drawcards(champion){
                 count--
             }
             sub.textContent = count;
+            calcBasketCount(user)
         });
         
     });

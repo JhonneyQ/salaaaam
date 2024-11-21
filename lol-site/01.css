@@ -10,3 +10,14 @@ header{
 .minus{
     padding: 10px;
 }
+
+.champions{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.card{
+    width: 120px;
+    min-height: 300px;
+}

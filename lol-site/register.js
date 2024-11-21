@@ -1,3 +1,4 @@
+import { getDataFromLocalStorage, setDataToLocalStorage } from "./helper.js";
 
 
 const namee = document.querySelector(".name")
@@ -5,7 +6,7 @@ const password = document.querySelector(".password")
 const submit = document.querySelector(".submit")
 const form = document.querySelector("form")
 
-const arr = JSON.parse(localStorage.getItem("user")) || [];
+const arr = getDataFromLocalStorage("user") || [];
 
 
 form.addEventListener("submit", function sub(event) {
@@ -19,7 +20,7 @@ form.addEventListener("submit", function sub(event) {
 
     arr.push(user)
 
-    localStorage.setItem("user", JSON.stringify(arr));
+    setDataToLocalStorage("user", arr)
     window.location.replace("./login.html");
 
     this.reset()

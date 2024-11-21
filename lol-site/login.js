@@ -1,3 +1,5 @@
+import { getDataFromLocalStorage } from "./helper.js"
+
 const namee = document.querySelector(".name")
 const password = document.querySelector(".password")
 const submit = document.querySelector(".submit")
@@ -6,7 +8,7 @@ const form = document.querySelector("form")
 form.addEventListener("submit", function sub(event) {
     event.preventDefault()
 
-    const all = JSON.parse(localStorage.getItem("user")) || []
+    const all = getDataFromLocalStorage("user") || []
 
     let isUserValid = false;
 
