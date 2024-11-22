@@ -1,6 +1,14 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .plus{
@@ -18,6 +26,10 @@ header{
     justify-content: center;
 }
 .card{
-    width: 120px;
+    width: 200px;
     min-height: 300px;
+}
+
+img{
+    width: 200px;
 }
