@@ -3,7 +3,7 @@ const password = document.querySelector(".password")
 const submit = document.querySelector(".submit")
 const form = document.querySelector("form")
 
-const arr = [];
+const arr = JSON.parse(localStorage.getItem("students")) || [];
 
 
 form.addEventListener("submit", function sub(event) {
@@ -21,4 +21,5 @@ form.addEventListener("submit", function sub(event) {
     localStorage.setItem("students", JSON.stringify(arr));
 
     this.reset()
+    window.location.replace("011.html")
 })

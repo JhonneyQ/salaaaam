@@ -27,7 +27,9 @@ function drawtable(arr) {
     const deletee = document.querySelectorAll("delete")
 
     deletee.forEach((btn) => {
-        btn.addEventListener("click", function(){})
+        btn.addEventListener("click", function(){
+            deletebtn("customers",btn.id,this)
+        })
       
     })
 
